@@ -1,219 +1,252 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta http-equiv="X-UA-Compatible" content="ie=edge">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
-        <link rel="stylesheet" href="styles/bulma.min.css">
-        <link rel="stylesheet" href="styles/custom.css">
-        <title>Bulma CheatSheet</title>
-    </head>
-    <body>
-        <!-- header section -->
-        <div class="parallax-image" id="top">
-            <br />
-            <div class="tags is-centered element">
-                <a href="#buttons" class="tag is-warning has-text-weight-bold">Buttons</a>
-                <a href="#box" class="tag is-warning has-text-weight-bold">Box</a>
-                <a href="#notification" class="tag is-warning has-text-weight-bold">Notifications</a>
-            </div>
-            <div>&nbsp;</div>
-            <div>&nbsp;</div>
-            <div>&nbsp;</div>
-            <div>&nbsp;</div>
-            <div>
-                <h1 class="my-title is-1">
-                    Bulma CheatSheet
-                </h1>
-            </div>
-        </div>
-        <!-- end header section -->
-
-        <!-- content section -->
-        <div class="my-headers">
-            <h1 class="title is-1 is-centered is-white has-text-white" id="buttons">Buttons</h1>
-        </div>
-        <div class="has-text-right">
-          <a class="button is-warning is-rounded" href="#top">
-            <span class="icon is-small">
-              <i class="fa fa-arrow-up" aria-hidden="true"></i>
-            </span>
-          </a>
-        </div>
-
-        <!-- Start of buttons color section -->
-        <div class="card">
-            <div class="container is-fluid my-content parastrip">
-                <h1 class="title">Buttons/Colors</h1>
-                <div class="bd-content">
-                    <div class="columns">
-                        <div class="column" align="center">
-                            <a class="button is-primary">.is-primary</a>
-                            <a class="button is-link">.is-link</a>
-                            <a class="button is-info">Info</a>
-                            <a class="button is-success">Success</a>
-                            <a class="button is-warning">Warning</a>
-                            <a class="button is-danger">Danger</a>
-                        </div>
-                        <div class="column">
-                            <div class="bd-snippet-code highlight-full" >
-                                <figure class="highlight"><pre><code class="language-html" data-lang="html" id="buttons-code"><span class="nt">        &lt;a</span> <span class="na">class=</span><span class="s">"button is-primary"</span><span class="nt">&gt;</span>Primary<span class="nt">&lt;/a&gt;</span>
-    <span class="nt">    &lt;a</span> <span class="na">class=</span><span class="s">"button is-link"</span><span class="nt">&gt;</span>Link<span class="nt">&lt;/a&gt;</span>
-    <span class="nt">    &lt;a</span> <span class="na">class=</span><span class="s">"button is-info"</span><span class="nt">&gt;</span>Info<span class="nt">&lt;/a&gt;</span>
-    <span class="nt">    &lt;a</span> <span class="na">class=</span><span class="s">"button is-success"</span><span class="nt">&gt;</span>Success<span class="nt">&lt;/a&gt;</span>
-    <span class="nt">    &lt;a</span> <span class="na">class=</span><span class="s">"button is-warning"</span><span class="nt">&gt;</span>Warning<span class="nt">&lt;/a&gt;</span>
-    <span class="nt">    &lt;a</span> <span class="na">class=</span><span class="s">"button is-danger"</span><span class="nt">&gt;</span>Danger<span class="nt">&lt;/a&gt;</span></code></pre></figure>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- end button color section -->
-
-        <!-- start of button sizes section  -->
-        <div class="card">
-            <div class="container is-fluid my-content">
-                <h1 class="title">Buttons/Sizes</h1>
-                <div class="bd-content">
-                    <div class="columns">
-                        <div class="column" align="center">
-                            <a class="button is-small">Small</a>
-                            <a class="button">Normal</a>
-                            <a class="button is-medium">Medium</a>
-                            <a class="button is-large">Large</a>
-                        </div>
-                        <div class="column">
-                            <div class="bd-snippet-code highlight-full ">
-                                <figure class="highlight"><pre><code class="language-html" data-lang="html"><span class="nt">&lt;a</span> <span class="na">class=</span><span class="s">"button is-small"</span><span class="nt">&gt;</span>Small<span class="nt">&lt;/a&gt;</span>
-<span class="nt">&lt;a</span> <span class="na">class=</span><span class="s">"button"</span><span class="nt">&gt;</span>Normal<span class="nt">&lt;/a&gt;</span>
-<span class="nt">&lt;a</span> <span class="na">class=</span><span class="s">"button is-medium"</span><span class="nt">&gt;</span>Medium<span class="nt">&lt;/a&gt;</span>
-<span class="nt">&lt;a</span> <span class="na">class=</span><span class="s">"button is-large"</span><span class="nt">&gt;</span>Large<span class="nt">&lt;/a&gt;</span></code></pre></figure>
-                                </div>
-                            </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- end of button sizes section -->
-
-        <!-- start of button styles section  -->
-        <div class="card">
-            <div class="container is-fluid my-content">
-                <h1 class="title">Buttons/Styles</h1>
-                <!-- start button styles section -->
-                <div class="bd-content">
-                    <div class="columns">
-                        <div class="column" align="center">
-                            <a class="button is-outlined">Outlined</a>
-                            <a class="button is-primary is-outlined">Outlined</a>
-                            <a class="button is-link is-outlined">Outlined</a>
-                            <a class="button is-info is-outlined">Outlined</a>
-                            <a class="button is-success is-outlined">Outlined</a>
-                            <a class="button is-danger is-outlined">Outlined</a>
-                        </div>
-                        <div class="column">
-                            <div class="bd-snippet-code highlight-full ">
-      <figure class="highlight"><pre><code class="language-html" data-lang="html"><span class="nt">&lt;a</span> <span class="na">class=</span><span class="s">"button is-outlined"</span><span class="nt">&gt;</span>Outlined<span class="nt">&lt;/a&gt;</span>
-<span class="nt">&lt;a</span> <span class="na">class=</span><span class="s">"button is-primary is-outlined"</span><span class="nt">&gt;</span>Outlined<span class="nt">&lt;/a&gt;</span>
-<span class="nt">&lt;a</span> <span class="na">class=</span><span class="s">"button is-link is-outlined"</span><span class="nt">&gt;</span>Outlined<span class="nt">&lt;/a&gt;</span>
-<span class="nt">&lt;a</span> <span class="na">class=</span><span class="s">"button is-info is-outlined"</span><span class="nt">&gt;</span>Outlined<span class="nt">&lt;/a&gt;</span>
-<span class="nt">&lt;a</span> <span class="na">class=</span><span class="s">"button is-success is-outlined"</span><span class="nt">&gt;</span>Outlined<span class="nt">&lt;/a&gt;</span>
-<span class="nt">&lt;a</span> <span class="na">class=</span><span class="s">"button is-danger is-outlined"</span><span class="nt">&gt;</span>Outlined<span class="nt">&lt;/a&gt;</span></code></pre></figure>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+    <link rel="stylesheet" href="styles/bulma.min.css">
+    <link rel="stylesheet" href="styles/custom.css">
+    <title>Bulma CheatSheet</title>
+  </head>
+  <body>
+    <!-- header section -->
+    <div class="parallax-image" id="top">
+      <br />
+      <div class="tags is-centered element">
+          <a href="#buttons" class="tag is-warning has-text-weight-bold">Buttons</a>
+          <a href="#box" class="tag is-warning has-text-weight-bold">Box</a>
+          <a href="#notification" class="tag is-warning has-text-weight-bold">Notifications</a>
+          <a href="#hero" class="tag is-warning has-text-weight-bold">Hero</a>
+      </div>
+      <div>&nbsp;</div>
+      <div>&nbsp;</div>
+      <div>&nbsp;</div>
+      <div>&nbsp;</div>
+      <div>
+          <h1 class="my-title is-1">
+              Bulma CheatSheet
+          </h1>
+      </div>
     </div>
-                            </div>
-                    </div>
-                </div>
-                <!-- end button styles section -->
+    <!-- end header section -->
 
-                <!-- additional style section#1 -->
-                <div class="bd-content">
-                    <div class="columns">
-                        <div class="column" align="center">
-                            <a class="button is-rounded">Rounded</a>
-                            <a class="button is-primary is-rounded">Rounded</a>
-                            <a class="button is-link is-rounded">Rounded</a>
-                            <a class="button is-info is-rounded">Rounded</a>
-                            <a class="button is-success is-rounded">Rounded</a>
-                            <a class="button is-danger is-rounded">Rounded</a>
-                        </div>
-                        <div class="column">
-                            <div class="bd-snippet-code highlight-full ">
-                                <figure class="highlight"><pre><code class="language-html" data-lang="html"><span class="nt">&lt;a</span> <span class="na">class=</span><span class="s">"button is-rounded"</span><span class="nt">&gt;</span>Rounded<span class="nt">&lt;/a&gt;</span>
-<span class="nt">&lt;a</span> <span class="na">class=</span><span class="s">"button is-primary is-rounded"</span><span class="nt">&gt;</span>Rounded<span class="nt">&lt;/a&gt;</span>
-<span class="nt">&lt;a</span> <span class="na">class=</span><span class="s">"button is-link is-rounded"</span><span class="nt">&gt;</span>Rounded<span class="nt">&lt;/a&gt;</span>
-<span class="nt">&lt;a</span> <span class="na">class=</span><span class="s">"button is-info is-rounded"</span><span class="nt">&gt;</span>Rounded<span class="nt">&lt;/a&gt;</span>
-<span class="nt">&lt;a</span> <span class="na">class=</span><span class="s">"button is-success is-rounded"</span><span class="nt">&gt;</span>Rounded<span class="nt">&lt;/a&gt;</span>
-<span class="nt">&lt;a</span> <span class="na">class=</span><span class="s">"button is-danger is-rounded"</span><span class="nt">&gt;</span>Rounded<span class="nt">&lt;/a&gt;</span></code></pre></figure>
+    <!-- content section -->
+    <div class="my-headers">
+        <h1 class="title is-1 is-centered is-white has-text-white" id="buttons">Buttons</h1>
     </div>
-                            </div>
-                    </div>
-                </div>
-                <!-- end additional sytle section#1 -->
+    <div class="has-text-right">
+      <a class="button is-warning is-rounded" href="#top">
+        <span class="icon is-small">
+          <i class="fa fa-arrow-up" aria-hidden="true"></i>
+        </span>
+      </a>
+    </div>
 
+    <!-- Start of buttons color section -->
+    <div class="card">
+      <div class="container is-fluid my-content parastrip">
+        <h1 class="title">Buttons/Colors</h1>
+        <div class="bd-content">
+          <div class="columns">
+            <div class="column" align="center">
+              <a class="button is-primary">.is-primary</a>
+              <a class="button is-link">.is-link</a>
+              <a class="button is-info">Info</a>
+              <a class="button is-success">Success</a>
+              <a class="button is-warning">Warning</a>
+              <a class="button is-danger">Danger</a>
             </div>
+            <div class="column">
+              <div class="bd-snippet-code highlight-full" >
+                <figure class="highlight">
+                  <pre>
+                    <code class="language-html" data-lang="html" id="buttons-code">
+          <span class="nt">&lt;a</span> <span class="na">class=</span><span class="s">"button is-primary"</span><span class="nt">&gt;</span>Primary<span class="nt">&lt;/a&gt;</span>
+          <span class="nt">&lt;a</span> <span class="na">class=</span><span class="s">"button is-link"</span><span class="nt">&gt;</span>Link<span class="nt">&lt;/a&gt;</span>
+          <span class="nt">&lt;a</span> <span class="na">class=</span><span class="s">"button is-info"</span><span class="nt">&gt;</span>Info<span class="nt">&lt;/a&gt;</span>
+          <span class="nt">&lt;a</span> <span class="na">class=</span><span class="s">"button is-success"</span><span class="nt">&gt;</span>Success<span class="nt">&lt;/a&gt;</span>
+          <span class="nt">&lt;a</span> <span class="na">class=</span><span class="s">"button is-warning"</span><span class="nt">&gt;</span>Warning<span class="nt">&lt;/a&gt;</span>
+          <span class="nt">&lt;a</span> <span class="na">class=</span><span class="s">"button is-danger"</span><span class="nt">&gt;</span>Danger<span class="nt">&lt;/a&gt;</span>
+                    </code>
+                  </pre>
+                </figure>
+              </div>
+            </div>
+          </div>
         </div>
-        <!-- end of button styles section -->
-
-        <!-- start of button state section  -->
-        <div class="card">
-            <div class="container is-fluid my-content">
-                <h1 class="title">Buttons/State</h1>
-
-                <!-- start normal button state section -->
-                <div class="bd-content">
-                    <div class="columns">
-                        <div class="column" align="center">
-                            <a class="button">Normal</a>
-                            <a class="button is-primary">Normal</a>
-                            <a class="button is-link">Normal</a>
-                            <a class="button is-info">Normal</a>
-                            <a class="button is-success">Normal</a>
-                            <a class="button is-warning">Normal</a>
-                            <a class="button is-danger">Normal</a>
-                        </div>
-                        <div class="column">
-                            <div class="bd-snippet-code highlight-full ">
-      <figure class="highlight"><pre><code class="language-html" data-lang="html"><span class="nt">&lt;a</span> <span class="na">class=</span><span class="s">"button"</span><span class="nt">&gt;</span>Normal<span class="nt">&lt;/a&gt;</span>
-<span class="nt">&lt;a</span> <span class="na">class=</span><span class="s">"button is-primary"</span><span class="nt">&gt;</span>Normal<span class="nt">&lt;/a&gt;</span>
-<span class="nt">&lt;a</span> <span class="na">class=</span><span class="s">"button is-link"</span><span class="nt">&gt;</span>Normal<span class="nt">&lt;/a&gt;</span>
-<span class="nt">&lt;a</span> <span class="na">class=</span><span class="s">"button is-info"</span><span class="nt">&gt;</span>Normal<span class="nt">&lt;/a&gt;</span>
-<span class="nt">&lt;a</span> <span class="na">class=</span><span class="s">"button is-success"</span><span class="nt">&gt;</span>Normal<span class="nt">&lt;/a&gt;</span>
-<span class="nt">&lt;a</span> <span class="na">class=</span><span class="s">"button is-warning"</span><span class="nt">&gt;</span>Normal<span class="nt">&lt;/a&gt;</span>
-<span class="nt">&lt;a</span> <span class="na">class=</span><span class="s">"button is-danger"</span><span class="nt">&gt;</span>Normal<span class="nt">&lt;/a&gt;</span></code></pre></figure>
+      </div>
     </div>
-                            </div>
-                    </div>
-                </div>
-                <!-- end normal button state section -->
+    <!-- end button color section -->
 
-                <!-- start hover button state section -->
-                <div class="bd-content">
-                    <div class="columns">
-                        <div class="column" align="center">
-                            <a class="button is-hovered">Hover</a>
-                            <a class="button is-primary is-hovered">Hover</a>
-                            <a class="button is-link is-hovered">Hover</a>
-                            <a class="button is-info is-hovered">Hover</a>
-                            <a class="button is-success is-hovered">Hover</a>
-                            <a class="button is-warning is-hovered">Hover</a>
-                            <a class="button is-danger is-hovered">Hover</a>
-                        </div>
-                        <div class="column">
-                            <div class="bd-snippet-code highlight-full ">
-      <figure class="highlight"><pre><code class="language-html" data-lang="html"><span class="nt">&lt;a</span> <span class="na">class=</span><span class="s">"button is-hovered"</span><span class="nt">&gt;</span>Hover<span class="nt">&lt;/a&gt;</span>
-<span class="nt">&lt;a</span> <span class="na">class=</span><span class="s">"button is-primary is-hovered"</span><span class="nt">&gt;</span>Hover<span class="nt">&lt;/a&gt;</span>
-<span class="nt">&lt;a</span> <span class="na">class=</span><span class="s">"button is-link is-hovered"</span><span class="nt">&gt;</span>Hover<span class="nt">&lt;/a&gt;</span>
-<span class="nt">&lt;a</span> <span class="na">class=</span><span class="s">"button is-info is-hovered"</span><span class="nt">&gt;</span>Hover<span class="nt">&lt;/a&gt;</span>
-<span class="nt">&lt;a</span> <span class="na">class=</span><span class="s">"button is-success is-hovered"</span><span class="nt">&gt;</span>Hover<span class="nt">&lt;/a&gt;</span>
-<span class="nt">&lt;a</span> <span class="na">class=</span><span class="s">"button is-warning is-hovered"</span><span class="nt">&gt;</span>Hover<span class="nt">&lt;/a&gt;</span>
-<span class="nt">&lt;a</span> <span class="na">class=</span><span class="s">"button is-danger is-hovered"</span><span class="nt">&gt;</span>Hover<span class="nt">&lt;/a&gt;</span></code></pre></figure>
+    <!-- start of button sizes section  -->
+    <div class="card">
+      <div class="container is-fluid my-content">
+        <h1 class="title">Buttons/Sizes</h1>
+        <div class="bd-content">
+          <div class="columns">
+            <div class="column" align="center">
+              <a class="button is-small">Small</a>
+              <a class="button">Normal</a>
+              <a class="button is-medium">Medium</a>
+              <a class="button is-large">Large</a>
+            </div>
+            <div class="column">
+              <div class="bd-snippet-code highlight-full ">
+                <figure class="highlight">
+                  <pre>
+                    <code class="language-html" data-lang="html">
+          <span class="nt">&lt;a</span> <span class="na">class=</span><span class="s">"button is-small"</span><span class="nt">&gt;</span>Small<span class="nt">&lt;/a&gt;</span>
+          <span class="nt">&lt;a</span> <span class="na">class=</span><span class="s">"button"</span><span class="nt">&gt;</span>Normal<span class="nt">&lt;/a&gt;</span>
+          <span class="nt">&lt;a</span> <span class="na">class=</span><span class="s">"button is-medium"</span><span class="nt">&gt;</span>Medium<span class="nt">&lt;/a&gt;</span>
+          <span class="nt">&lt;a</span> <span class="na">class=</span><span class="s">"button is-large"</span><span class="nt">&gt;</span>Large<span class="nt">&lt;/a&gt;</span>
+                    </code>
+                  </pre>
+                </figure>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
-                            </div>
-                    </div>
+    <!-- end of button sizes section -->
+
+    <!-- start of button styles section  -->
+    <div class="card">
+      <div class="container is-fluid my-content">
+        <h1 class="title">Buttons/Styles</h1>
+        <div class="bd-content">
+          <div class="columns">
+            <div class="column" align="center">
+              <a class="button is-outlined">Outlined</a>
+              <a class="button is-primary is-outlined">Outlined</a>
+              <a class="button is-link is-outlined">Outlined</a>
+              <a class="button is-info is-outlined">Outlined</a>
+              <a class="button is-success is-outlined">Outlined</a>
+              <a class="button is-danger is-outlined">Outlined</a>
+            </div>
+            <div class="column">
+              <div class="bd-snippet-code highlight-full ">
+                <figure class="highlight">
+                  <pre>
+                    <code class="language-html" data-lang="html">
+        <span class="nt">&lt;a</span> <span class="na">class=</span><span class="s">"button is-outlined"</span><span class="nt">&gt;</span>Outlined<span class="nt">&lt;/a&gt;</span>
+        <span class="nt">&lt;a</span> <span class="na">class=</span><span class="s">"button is-primary is-outlined"</span><span class="nt">&gt;</span>Outlined<span class="nt">&lt;/a&gt;</span>
+        <span class="nt">&lt;a</span> <span class="na">class=</span><span class="s">"button is-link is-outlined"</span><span class="nt">&gt;</span>Outlined<span class="nt">&lt;/a&gt;</span>
+        <span class="nt">&lt;a</span> <span class="na">class=</span><span class="s">"button is-info is-outlined"</span><span class="nt">&gt;</span>Outlined<span class="nt">&lt;/a&gt;</span>
+        <span class="nt">&lt;a</span> <span class="na">class=</span><span class="s">"button is-success is-outlined"</span><span class="nt">&gt;</span>Outlined<span class="nt">&lt;/a&gt;</span>
+        <span class="nt">&lt;a</span> <span class="na">class=</span><span class="s">"button is-danger is-outlined"</span><span class="nt">&gt;</span>Outlined<span class="nt">&lt;/a&gt;</span>
+                    </code>
+                  </pre>
+                </figure>
+              </div>
+            </div>
+          </div>
+          <!-- end button styles section -->
+
+          <!-- additional style section#1 -->
+          <div class="bd-content">
+            <div class="columns">
+              <div class="column" align="center">
+                <a class="button is-rounded">Rounded</a>
+                <a class="button is-primary is-rounded">Rounded</a>
+                <a class="button is-link is-rounded">Rounded</a>
+                <a class="button is-info is-rounded">Rounded</a>
+                <a class="button is-success is-rounded">Rounded</a>
+                <a class="button is-danger is-rounded">Rounded</a>
+              </div>
+              <div class="column">
+                <div class="bd-snippet-code highlight-full ">
+                  <figure class="highlight">
+                    <pre>
+                      <code class="language-html" data-lang="html">
+        <span class="nt">&lt;a</span> <span class="na">class=</span><span class="s">"button is-rounded"</span><span class="nt">&gt;</span>Rounded<span class="nt">&lt;/a&gt;</span>
+        <span class="nt">&lt;a</span> <span class="na">class=</span><span class="s">"button is-primary is-rounded"</span><span class="nt">&gt;</span>Rounded<span class="nt">&lt;/a&gt;</span>
+        <span class="nt">&lt;a</span> <span class="na">class=</span><span class="s">"button is-link is-rounded"</span><span class="nt">&gt;</span>Rounded<span class="nt">&lt;/a&gt;</span>
+        <span class="nt">&lt;a</span> <span class="na">class=</span><span class="s">"button is-info is-rounded"</span><span class="nt">&gt;</span>Rounded<span class="nt">&lt;/a&gt;</span>
+        <span class="nt">&lt;a</span> <span class="na">class=</span><span class="s">"button is-success is-rounded"</span><span class="nt">&gt;</span>Rounded<span class="nt">&lt;/a&gt;</span>
+        <span class="nt">&lt;a</span> <span class="na">class=</span><span class="s">"button is-danger is-rounded"</span><span class="nt">&gt;</span>Rounded<span class="nt">&lt;/a&gt;</span>
+                      </code>
+                    </pre>
+                  </figure>
                 </div>
-                <!-- end hover button state section -->
+              </div>
+            </div>
+          </div>
+          <!-- end additional sytle section#1 -->
+        </div>
+      </div>
+      <!-- end of button styles section -->
+
+      <!-- start of button state section  -->
+      <div class="card">
+        <div class="container is-fluid my-content">
+          <h1 class="title">Buttons/State</h1>
+          <!-- start normal button state section -->
+          <div class="bd-content">
+            <div class="columns">
+              <div class="column" align="center">
+                <a class="button">Normal</a>
+                <a class="button is-primary">Normal</a>
+                <a class="button is-link">Normal</a>
+                <a class="button is-info">Normal</a>
+                <a class="button is-success">Normal</a>
+                <a class="button is-warning">Normal</a>
+                <a class="button is-danger">Normal</a>
+              </div>
+              <div class="column">
+                <div class="bd-snippet-code highlight-full ">
+                  <figure class="highlight">
+                    <pre>
+                      <code class="language-html" data-lang="html">
+        <span class="nt">&lt;a</span> <span class="na">class=</span><span class="s">"button"</span><span class="nt">&gt;</span>Normal<span class="nt">&lt;/a&gt;</span>
+        <span class="nt">&lt;a</span> <span class="na">class=</span><span class="s">"button is-primary"</span><span class="nt">&gt;</span>Normal<span class="nt">&lt;/a&gt;</span>
+        <span class="nt">&lt;a</span> <span class="na">class=</span><span class="s">"button is-link"</span><span class="nt">&gt;</span>Normal<span class="nt">&lt;/a&gt;</span>
+        <span class="nt">&lt;a</span> <span class="na">class=</span><span class="s">"button is-info"</span><span class="nt">&gt;</span>Normal<span class="nt">&lt;/a&gt;</span>
+        <span class="nt">&lt;a</span> <span class="na">class=</span><span class="s">"button is-success"</span><span class="nt">&gt;</span>Normal<span class="nt">&lt;/a&gt;</span>
+        <span class="nt">&lt;a</span> <span class="na">class=</span><span class="s">"button is-warning"</span><span class="nt">&gt;</span>Normal<span class="nt">&lt;/a&gt;</span>
+        <span class="nt">&lt;a</span> <span class="na">class=</span><span class="s">"button is-danger"</span><span class="nt">&gt;</span>Normal<span class="nt">&lt;/a&gt;</span>
+                      </code>
+                    </pre>
+                  </figure>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- end normal button state section -->
+
+          <!-- start hover button state section -->
+          <div class="bd-content">
+            <div class="columns">
+              <div class="column" align="center">
+                <a class="button is-hovered">Hover</a>
+                <a class="button is-primary is-hovered">Hover</a>
+                <a class="button is-link is-hovered">Hover</a>
+                <a class="button is-info is-hovered">Hover</a>
+                <a class="button is-success is-hovered">Hover</a>
+                <a class="button is-warning is-hovered">Hover</a>
+                <a class="button is-danger is-hovered">Hover</a>
+              </div>
+              <div class="column">
+                <div class="bd-snippet-code highlight-full ">
+                  <figure class="highlight">
+                    <pre>
+                      <code class="language-html" data-lang="html">
+        <span class="nt">&lt;a</span> <span class="na">class=</span><span class="s">"button is-hovered"</span><span class="nt">&gt;</span>Hover<span class="nt">&lt;/a&gt;</span>
+        <span class="nt">&lt;a</span> <span class="na">class=</span><span class="s">"button is-primary is-hovered"</span><span class="nt">&gt;</span>Hover<span class="nt">&lt;/a&gt;</span>
+        <span class="nt">&lt;a</span> <span class="na">class=</span><span class="s">"button is-link is-hovered"</span><span class="nt">&gt;</span>Hover<span class="nt">&lt;/a&gt;</span>
+        <span class="nt">&lt;a</span> <span class="na">class=</span><span class="s">"button is-info is-hovered"</span><span class="nt">&gt;</span>Hover<span class="nt">&lt;/a&gt;</span>
+        <span class="nt">&lt;a</span> <span class="na">class=</span><span class="s">"button is-success is-hovered"</span><span class="nt">&gt;</span>Hover<span class="nt">&lt;/a&gt;</span>
+        <span class="nt">&lt;a</span> <span class="na">class=</span><span class="s">"button is-warning is-hovered"</span><span class="nt">&gt;</span>Hover<span class="nt">&lt;/a&gt;</span>
+        <span class="nt">&lt;a</span> <span class="na">class=</span><span class="s">"button is-danger is-hovered"</span><span class="nt">&gt;</span>Hover<span class="nt">&lt;/a&gt;</span>
+                      </code>
+                    </pre>
+                  </figure>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- end hover button state section -->
 
                 <!-- start focus button state section -->
                 <div class="bd-content">
@@ -399,7 +432,7 @@
         <span class="nt">&lt;p&gt;</span>
           <span class="nt">&lt;strong&gt;</span>John Smith<span class="nt">&lt;/strong&gt;</span> <span class="nt">&lt;small&gt;</span>@johnsmith<span class="nt">&lt;/small&gt;</span> <span class="nt">&lt;small&gt;</span>31m<span class="nt">&lt;/small&gt;</span>
           <span class="nt">&lt;br&gt;</span>
-          Lorem ipsum dolor sit amet, 
+          Lorem ipsum dolor sit amet,
         <span class="nt">&lt;/p&gt;</span>
       <span class="nt">&lt;/div&gt;</span>
       <span class="nt">&lt;nav</span> <span class="na">class=</span><span class="s">"level is-mobile"</span><span class="nt">&gt;</span>
@@ -432,49 +465,96 @@
         </div>
         <!-- end box section -->
 
-        <!-- Start of notification header section -->
-        <div class="my-headers">
-            <h1 class="title is-1 is-centered is-white has-text-white" id="notification">Notifications</h1>
-        </div>
-        <div class="has-text-right">
-          <a class="button is-warning is-rounded" href="#top">
-            <span class="icon is-small">
-              <i class="fa fa-arrow-up" aria-hidden="true"></i>
-            </span>
-          </a>
-        </div>
+<!-- Start of notification header section -->
+<div class="my-headers">
+    <h1 class="title is-1 is-centered is-white has-text-white" id="notification">Notifications</h1>
+</div>
+<div class="has-text-right">
+  <a class="button is-warning is-rounded" href="#top">
+    <span class="icon is-small">
+      <i class="fa fa-arrow-up" aria-hidden="true"></i>
+    </span>
+  </a>
+</div>
 
-
-        <!-- start of notification area -->
-        <div class="card">
-          <div class="container is-fluid my-content">
-            <h1 class="title">&nbsp;</h1>
-            <div class="bd-content">
-              <div class="notification">
-                <button class="delete"></button>
-                Lorem ipsum dolor sit amet, consectetur
-                adipiscing elit lorem ipsum dolor. <strong>Pellentesque risus mi</strong>, tempus quis placerat ut, porta nec nulla. Vestibulum rhoncus ac ex sit amet fringilla. Nullam gravida purus diam, et dictum <a>felis venenatis</a> efficitur. Sit amet,
-                consectetur adipiscing elit
-              </div>
-            </div><br>
-            <div class="bd-content">
-              <div>
-                <div class="bd-snippet-code highlight-full ">
-      <figure class="highlight"><pre><code class="language-html" data-lang="html"><span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"notification"</span><span class="nt">&gt;</span>
-  <span class="nt">&lt;button</span> <span class="na">class=</span><span class="s">"delete"</span><span class="nt">&gt;&lt;/button&gt;</span>
-  Lorem ipsum dolor sit amet, consectetur
-  adipiscing elit lorem ipsum dolor. <span class="nt">&lt;strong&gt;</span>Pellentesque risus mi<span class="nt">&lt;/strong&gt;</span><span class="nt">&lt;a&gt;</span>felis venenatis<span class="nt">&lt;/a&gt;</span>
-  consectetur adipiscing elit
-<span class="nt">&lt;/div&gt;</span></code></pre>
-</figure>
+<!-- start of notification area -->
+<div class="card">
+  <div class="container is-fluid my-content">
+    <h1 class="title">&nbsp;</h1>
+    <div class="bd-content">
+      <div class="notification">
+        <button class="delete"></button>
+        Lorem ipsum dolor sit amet, consectetur
+        adipiscing elit lorem ipsum dolor.
+        Lorem ipsum dolor sit amet, consectetur
+        adipiscing elit lorem ipsum dolor.
+        Lorem ipsum dolor sit amet, consectetur
+        adipiscing elit lorem ipsum dolor.
+      </div>
+    </div><br>
+    <div class="bd-content">
+      <div>
+        <div class="bd-snippet-code highlight-full ">
+          <figure class="highlight">
+            <pre>
+              <code class="language-html" data-lang="html">
+                <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"notification"</span><span class="nt">&gt;</span>
+                <span class="nt">&lt;button</span> <span class="na">class=</span><span class="s">"delete"</span><span class="nt">&gt;&lt;/button&gt;</span>
+                <span class="nt">&lt;strong&gt;</span>Pellentesque risus mi<span class="nt">&lt;/strong&gt;</span><span class="nt">&lt;a&gt;</span>felis venenatis<span class="nt">&lt;/a&gt;</span>
+                <span class="nt">&lt;/div&gt;</span>
+              </code>
+            </pre>
+          </figure>
+        </div>
+      </div>
     </div>
-              </div>
-            </div>
-          </div><br>
-        </div>
+  </div><br>
+</div>
+<!-- end of notification section -->
 
+<!-- Start of hero header section -->
+<div class="my-headers">
+    <h1 class="title is-1 is-centered is-white has-text-white" id="hero">Hero</h1>
+</div>
+<div class="has-text-right">
+  <a class="button is-warning is-rounded" href="#top">
+    <span class="icon is-small">
+      <i class="fa fa-arrow-up" aria-hidden="true"></i>
+    </span>
+  </a>
+</div>
+<!-- end of hero header section -->
 
-        <!-- end of notification section -->
+<!-- start of hero section -->
+<div class="card">
+  <section class="hero is-primary">
+    <div class="hero-body">
+      <div class="container">
+        <h1 class="title">
+          Primary title
+        </h1>
+        <h2 class="subtitle">
+          Primary subtitle
+        </h2>
+      </div>
+    </div>
+  </section>
+  <div class="box">
+    <pre><code class="language-html" data-lang="html"><span class="nt">&lt;section</span> <span class="na">class=</span><span class="s">"hero is-primary"</span><span class="nt">&gt;</span>
+      <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"hero-body"</span><span class="nt">&gt;</span>
+      <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"container"</span><span class="nt">&gt;</span>
+      <span class="nt">&lt;h1</span> <span class="na">class=</span><span class="s">"title"</span><span class="nt">&gt;</span>
+      Primary title
+      <span class="nt">&lt;/h1&gt;</span>
+      <span class="nt">&lt;h2</span> <span class="na">class=</span><span class="s">"subtitle"</span><span class="nt">&gt;</span>
+      Primary subtitle
+      <span class="nt">&lt;/h2&gt;</span>
+      <span class="nt">&lt;/div&gt;</span>
+      <span class="nt">&lt;/div&gt;</span>
+      <span class="nt">&lt;/section&gt;</span></code></pre>
+    </div>
+  </div>
+<!-- end of first hero section-->
 
-    </body>
+  </body>
 </html>
