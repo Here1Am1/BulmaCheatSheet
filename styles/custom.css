@@ -1,66 +1,67 @@
 body, html {
-    height: 100%;
+  height: 100%;
 }
 
 .parallax-image {
-    /* The image used */
-    background-image: url("../img/particles3.png");
+  /* The image used */
+  background-image: url("../img/particles3.png");
 
-    /* Full height */
-    height: 100%;
+  /* Full height */
+  height: 100%;
 
-    /* Create the parallax scrolling effect */
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 #box {
-    padding-bottom: 10px;
+  padding-bottom: 10px;
 }
+
 .parallax-image2 {
-    background-image: url("../img/particles3.png");
+  background-image: url("../img/particles3.png");
 }
 
 .parallax-image3 {
-    background-image: url("../img/texture6.jpg");
+  background-image: url("../img/texture6.jpg");
 }
 
 .parallax-image4 {
-    background-image: url("../img/texture3.jpg");
+  background-image: url("../img/texture3.jpg");
 }
 
 .parllax-image5 {
-    background-image: url("../img/heroImage2.jpg");
+  background-image: url("../img/heroImage2.jpg");
 }
 
 .my-headers {
-    height:55px;
-    background-color: black;
-    text-align: center;
+  height:55px;
+  background-color: black;
+  text-align: center;
 }
 
 .my-title {
-    font-size: 100px;
-    color: white;
-    text-align: center;
+  font-size: 100px;
+  color: white;
+  text-align: center;
 }
 
 .my-content {
-    margin-right: 15px;
-    margin-bottom: 15px;
-    margin-left: 15px;
+  margin-right: 15px;
+  margin-bottom: 15px;
+  margin-left: 15px;
 }
 
 .para-strip {
-    height:100px;
+  height:100px;
 }
 
 .para-strip-large {
-    height:200px;
+  height:200px;
 }
 
 .para-strip-thin {
-    height: 20px;
+  height: 20px;
 }
